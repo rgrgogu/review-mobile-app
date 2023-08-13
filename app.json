@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "sample-review-mobile",
-    "slug": "sample-review-mobile",
+    "name": "Review Mobile App",
+    "slug": "review-mobile-app",
+    "description": "This is a review mobile app.",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +22,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rgrgogu.reviewmobileapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "230312fc-09c5-4e73-8db9-4c235c28e44a"
+      }
+    },
+    "owner": "rgrgogu"
   }
 }
